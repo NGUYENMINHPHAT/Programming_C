@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main(){
+	int n;
+	scanf("%d",&n);
+	float t=n;
+	float p=t*0.01;
+	float e=p*0.001;
+	printf("%.fcm = %.3fm = %.3fkm",t,p,e);
+	
+
+}

@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <math.h>
+int main(){
+int k=0;
+int n;
+scanf("%d",&n);
+while (pow(2,k)<n) 
+k++;
+printf("%d",k);
+return 0;
+}

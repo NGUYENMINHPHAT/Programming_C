@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main(){
+    float a,b,c,d,e;
+    scanf("%f%f%f%f%f",&a,&b,&c,&d,&e);
+    if((a+b+c+d+e)>=4)
+    printf("DAT");
+    else{
+        printf("KHONG DAT");
+    }
+}

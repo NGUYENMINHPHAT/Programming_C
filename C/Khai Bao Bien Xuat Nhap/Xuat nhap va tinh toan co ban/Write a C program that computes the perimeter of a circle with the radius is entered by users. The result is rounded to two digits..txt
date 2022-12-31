@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main() {
+    double r;
+
+    scanf("%lf", &r);
+    printf("%.2f\n", 2.0*r*3.14);
+    
+    return 0;
+}

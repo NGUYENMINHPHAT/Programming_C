@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main (){
+	float r, CV, DT, pi;
+	pi=3.14;
+	scanf ("%f",&r);
+    CV= r*pi;
+    DT= r*r/4*pi;
+	printf ( "Chu vi: %.2f\n", CV);
+	printf ("Dien tich: %.2f\n", DT);
+	return 0;
+}

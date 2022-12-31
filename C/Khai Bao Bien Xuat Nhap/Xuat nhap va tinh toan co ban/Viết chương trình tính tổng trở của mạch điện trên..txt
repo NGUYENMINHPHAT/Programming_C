@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main(){
+ float R1, R2, R3;
+ scanf("%f%f%f",&R1,&R2,&R3);
+  float Rss=(R2*R3)/(R2+R3)+R1;
+ printf("%.2f ",Rss);
+ return 0; 
+}

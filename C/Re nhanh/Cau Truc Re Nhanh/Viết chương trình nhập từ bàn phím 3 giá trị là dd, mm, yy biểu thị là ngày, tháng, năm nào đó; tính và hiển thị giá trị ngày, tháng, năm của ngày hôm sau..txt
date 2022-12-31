@@ -1,0 +1,38 @@
+#include<stdio.h>
+int main (){
+	int ngay1, thang1, nam1, ngay2, thang2, nam2, songaycuathang;
+	scanf ("%d %d %d", &ngay1, &thang1, &nam1);
+	switch (thang1){
+		case 1:
+		case 3:
+		case 5:
+		case 7:
+		case 8:
+		case 10:
+		case 12: songaycuathang = 31; break;
+		case 4:
+		case 6:
+		case 9:
+		case 11: songaycuathang = 30; break;		
+		case 2:	
+		      if ((nam1%4==0 && nam1%100!=0) || (nam1%400==0))
+		         songaycuathang = 29;
+		      else 
+		         songaycuathang =28;
+		}
+		ngay2 = ngay1;
+		thang2 = thang1;
+		nam2 = nam1;
+		
+		ngay2++;
+		if (ngay2 > songaycuathang){
+		ngay2=1;
+		thang2++;
+		if (thang2 > 12){
+		thang2 =1;
+		nam2++;}
+		}
+		
+		printf ("%02d/%02d/%02d", ngay2, thang2, nam2);
+		return 0;
+		}

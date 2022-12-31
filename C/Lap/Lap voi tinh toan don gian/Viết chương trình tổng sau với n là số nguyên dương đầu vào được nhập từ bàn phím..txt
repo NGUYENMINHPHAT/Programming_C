@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main(){
+    int i, n;
+    float S;
+    S = 0;
+    i = 1;
+        scanf("%d", &n);
+    while(i <= n){
+        S = S + (float)i / (i + 1);
+        i++;
+    }
+    printf("%.2f", S);
+    
+}

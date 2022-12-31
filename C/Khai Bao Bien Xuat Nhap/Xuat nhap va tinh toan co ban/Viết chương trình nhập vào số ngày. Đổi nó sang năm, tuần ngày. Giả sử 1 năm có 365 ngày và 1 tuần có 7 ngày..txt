@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main(){
+    int y,w,d,D;
+    scanf("%d",&d);
+    y=d/365;
+    w=(d-y*365)/7;
+    D=d-y*365-w*7;
+    printf("%d days = %d year(s) %d week(s) and %d day(s).",d,y,w,D);
+    return 0;
+    
+}

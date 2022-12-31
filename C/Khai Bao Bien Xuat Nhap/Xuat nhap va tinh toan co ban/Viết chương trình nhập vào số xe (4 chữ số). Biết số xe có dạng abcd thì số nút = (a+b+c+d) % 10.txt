@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() {
+	int n, SoNut = 0;
+	
+	scanf("%d", &n);
+	SoNut += n % 10;
+	n = n / 10;
+	SoNut += n % 10;
+	n = n / 10;
+	SoNut += n % 10;
+	n = n / 10;
+	SoNut += n % 10;
+	n = n / 10;
+	
+	SoNut %= 10;
+	
+	printf("%d", SoNut);
+}

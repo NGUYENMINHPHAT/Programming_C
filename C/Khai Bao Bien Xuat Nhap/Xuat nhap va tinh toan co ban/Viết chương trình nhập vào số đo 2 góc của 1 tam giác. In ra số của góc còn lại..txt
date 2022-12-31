@@ -1,0 +1,7 @@
+#include<stdio.h>
+int main(){
+    int a,b,n;
+    scanf("%d%d",&a,&b);
+    n=180-(a+b);
+    printf("%d",n);
+}

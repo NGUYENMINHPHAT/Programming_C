@@ -1,0 +1,10 @@
+#include<stdio.h>  
+#include<time.h>
+int main (){
+  
+    int T,dd, mm, yyyy, nht;
+	scanf("%d%d%d%d", &dd, &mm, &yyyy, &nht);
+		T=nht - yyyy;
+printf ("Ban sinh ngay %02d thang %02d nam %d. Nam nay, ban %d tuoi.", dd, mm, yyyy ,T);
+	return 0;
+	}

@@ -1,0 +1,15 @@
+#include<stdio.h>  
+#include<time.h>
+int main (){
+    struct tm ts;
+    time_t now;
+    int year;
+    now = time(0);            
+    ts = *localtime(&now);    
+    year = ts.tm_year + 1900; 
+	int T,dd, mm, yyyy;
+	scanf("%d%d%d", &dd, &mm, &yyyy);
+	T= year-yyyy;
+    printf ("Ban sinh ngay %02d thang %02d nam %d. Nam nay, ban %d tuoi.", dd, mm, yyyy ,T);
+	return 0;
+}

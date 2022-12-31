@@ -1,0 +1,7 @@
+#include <stdio.h>
+int main(){
+    int d,r,a;
+    scanf("%d%d",&d,&r);
+    a = d*r;
+    printf("Dien tich: %d", a);
+}

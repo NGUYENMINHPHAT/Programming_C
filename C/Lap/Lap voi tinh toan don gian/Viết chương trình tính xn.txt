@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <math.h>
+int main(){
+float x;
+int n,i;
+float k=1;
+scanf("%f%d",&x,&n);
+for(i=1;i<=n;i++){
+k=k*x;
+}
+    printf("%.2f",k);
+}

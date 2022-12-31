@@ -1,0 +1,10 @@
+#include<stdio.h>  
+int main (){
+  
+    int doc; 
+	float dof;
+	scanf("%d", &doc);
+		dof= 0.5555555556*(doc-32);
+		printf ("%d do F = %.2f do C", doc, dof);
+	return 0;
+	}

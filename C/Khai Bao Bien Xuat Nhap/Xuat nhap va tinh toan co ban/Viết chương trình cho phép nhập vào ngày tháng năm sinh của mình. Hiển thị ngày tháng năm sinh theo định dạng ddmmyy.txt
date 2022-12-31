@@ -1,0 +1,6 @@
+#include <stdio.h>
+int main(){
+    int dd,mm,yy;
+    scanf("%d%d%d",&dd,&mm,&yy);
+    printf("%.2d/%.2d/%.2d",dd,mm,yy%100);
+}

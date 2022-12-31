@@ -1,0 +1,8 @@
+#include <stdio.h>
+#include <math.h>
+int main(){
+    float a,s;
+    scanf("%f" ,&a);
+    s = a*a/2;
+    printf("Dien tich: %.2f",s);
+}

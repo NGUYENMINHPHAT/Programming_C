@@ -1,0 +1,7 @@
+#include<stdio.h>
+int main(){
+    float a,h,n;
+    scanf("%f%f",&a,&h);
+    n=(a*h)/2;
+    printf("Dien tich tam giac: %.2f",n);
+}

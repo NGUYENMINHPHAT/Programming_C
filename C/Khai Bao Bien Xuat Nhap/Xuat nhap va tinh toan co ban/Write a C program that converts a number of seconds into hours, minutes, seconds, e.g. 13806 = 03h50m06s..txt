@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main() {
+    int seconds, h, m, s;
+
+    scanf("%d", &seconds);
+    s = seconds % 60;
+    m = (seconds / 60) % 60;
+    h = seconds / 3600;
+
+    printf("%02d:%02d:%02d\n", h, m, s);
+    
+    return 0;
+}

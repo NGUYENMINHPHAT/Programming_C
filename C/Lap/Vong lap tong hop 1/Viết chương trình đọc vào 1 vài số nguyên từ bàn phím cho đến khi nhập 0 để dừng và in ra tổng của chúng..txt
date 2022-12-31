@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main(){
+    int n,a,b,c=0,d=0;
+    int t;
+    int s = 0;
+    scanf("%d%d%d%d%d",&n,&a,&b,&c,&d);
+    for(;n!=0;){
+        t=n%10;
+        s += t+a+b+c+d; 
+    n=n/10;
+    }
+    printf("%d",s);
+}

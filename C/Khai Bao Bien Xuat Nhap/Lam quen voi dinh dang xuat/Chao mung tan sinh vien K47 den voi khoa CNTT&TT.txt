@@ -1,0 +1,4 @@
+#include <stdio.h>
+int main(){
+    printf("Chao mung \"tan sinh vien K47\" den voi khoa CNTT&TT");
+}

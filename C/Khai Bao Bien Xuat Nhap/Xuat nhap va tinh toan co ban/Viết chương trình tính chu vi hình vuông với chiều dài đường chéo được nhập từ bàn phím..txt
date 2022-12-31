@@ -1,0 +1,9 @@
+#include <stdio.h>
+#include <math.h>
+int main(){
+    float d,c,a;
+    scanf("%f" ,&d);
+    a= d/sqrt(2);
+    c= 4*a;
+    printf("Chu vi hinh vuong voi duong cheo %.2f la: %.2f",d, c);
+}

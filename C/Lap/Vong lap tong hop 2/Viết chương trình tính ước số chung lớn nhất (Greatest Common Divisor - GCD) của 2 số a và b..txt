@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<math.h>
+#include <stdlib.h>
+int main(){
+        int a,b;
+    scanf("%d%d", &a,&b);
+    int tmp;
+    while(b != 0) {
+        a=abs(a);
+        tmp = a % b;
+        a = b;
+        b = tmp;
+  
+}
+   printf("%d",a); // return a or b, bởi vì lúc này a và b bằng nhau
+}
+      
+    
+   
